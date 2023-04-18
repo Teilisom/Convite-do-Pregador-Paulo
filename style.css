@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+ margin-left: 8rem;
+   
+    
+}
+
+.texto {
+    text-align: center;
+    margin: 1rem;
+    margin-top: -2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    
+}
+
+
+.jovens {
+    text-align: center;
+    margin-bottom: 4rem;
+    
+}
+
+
+
+.texto span {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font:bold
+}
+
+.button {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font: optional;
+    
+    
+}
+
+
+button, a {
+    background: #c9b684;
+    padding: 1.2rem;
+    border-radius: 7px;
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+}
+
+.segundo {
+    text-align: left;
+}
+
+.terceiro {
+    text-align: right;
+    margin-top: -4.8rem;
+}
+
+h5 {
+    margin-bottom: 0.5rem;
+}
+
+
+.obs {
+   text-align: center;
+   padding: 2rem;
+   color: rgb(101, 103, 105);
+   font-family: 'Roboto', sans-serif;
+}
+
+.waze {
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.waze a {
+    background: white;
+    color: rgb(145, 128, 75);
+    margin-left: rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.1rem;
+    text-decoration: underline;
+}
+
+.insta {
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insta a  {
+    background: white;
+    color: rgb(145, 128, 75);
+    margin-left: rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.1rem;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        width: 4%;
+    }
+}
+
+
+@media (min-width: 767px) {
+  
+    .container {
+        max-width: 969px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+
+      .insta {
+        text-align: right;
+        margin-top: -2rem;
+        margin-right: 1rem;
+      }
+
+      img {
+        width: 30%;
+        margin-left: 17rem;
+        margin-right: 18rem;
+        height: auto;
+      }
+ }     
